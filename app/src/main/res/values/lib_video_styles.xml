@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ADLibAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lib_video_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/lib_video_colorPrimaryDark</item>
+        <item name="colorAccent">@color/lib_video_colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

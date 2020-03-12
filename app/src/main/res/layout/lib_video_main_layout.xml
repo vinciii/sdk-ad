@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ADLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/lib_video_backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/lib_video_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_head_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="10dp" />
+
+        <VideoView
+            android:id="@+id/lib_video_video_view"
+            android:layout_width="match_parent"
+            android:background="@android:color/transparent"
+            android:layout_height="250dp"
+            android:layout_marginStart="@dimen/lib_video_dp10"
+            android:layout_marginTop="@dimen/lib_video_dp10"
+            android:layout_marginEnd="@dimen/lib_video_dp10"
+            android:layout_marginBottom="@dimen/lib_video_dp10" />
+
+        <Space
+            android:id="@+id/lib_video_space"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:id="@+id/lib_video_btn_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/lib_video_dp5"
+            android:background="@android:drawable/list_selector_background"
+            android:scaleType="centerInside"
+            app:srcCompat="@mipmap/lib_video_downloadbutton" />
+
+        <ImageView
+            android:id="@+id/iv_banner_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list_1"
+            android:layout_width="match_parent"
+            android:layout_height="85dp" />
+
+
+        <ImageView
+            android:id="@+id/iv_banner_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_list_2"
+            android:layout_width="match_parent"
+            android:layout_height="85dp" />
+    </LinearLayout>
+</RelativeLayout>
+
