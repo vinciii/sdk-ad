@@ -16,9 +16,7 @@ import java.util.zip.ZipOutputStream;
 
 /*
  * 文件解压
- * @author m.
- * V 1.0
- * Create at 2019/3/28
+ * Create at 2020/3/10
  */
 public class ZipUtils {
     public static final String TOP_DIR_NAME = "data/data/com.example.sdkdemo/VideoCacheFlash";
